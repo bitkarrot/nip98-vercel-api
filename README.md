@@ -1,4 +1,4 @@
-# NIP98-Vercel-api sample
+# NIP98-Vercel-API server
 
 ## Usage notes
 
