@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const { verifyEvent } = require('nostr-tools');
+const crypto = require('crypto');
 
 class NostrAuthMiddleware {
   constructor(options = {}) {
