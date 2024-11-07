@@ -16,7 +16,6 @@ deployed to vercel as https://nip98-vercel-api.vercel.app/
 `curl -X POST https://nip98-vercel-api.vercel.app/api/two`
 
 
-
 ### NIP98 POST Auth endpoint: 
 requires Authorization header with nostr (in place of bearer)
 and a body with `room`, `username`, `avatarURL`, `relays`, `isPresenter`

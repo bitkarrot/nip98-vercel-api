@@ -170,7 +170,7 @@ app.post('/api/auth',
             console.log('isPresenter', isPresenter);
 
             // TODO: Redirect to hivetalk room give above info, correctly
-            res.status(200).json({ message: 'Authentication successful'});
+            res.status(200).json({ message: 'Authentication successful for ' + username });
 
         } catch (error) {
             console.log("authentication failed")
